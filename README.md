@@ -2,14 +2,23 @@
 學習notes
 
 #WEEK1
-  Happy Moon Festival
+=
+Happy Moon Festival
+-
 
 #WEEK2
-  linked-list
+=
+linked-list
+  -
 
 #WEEK3
-  stack &  queue
+=
+stack &  queue
+  -
 
 #WEEK4
-  set mismatch
-  insertion sort
+=
+set mismatch
+  -
+insertion sort
+  -
