@@ -1,9 +1,10 @@
-CodeSignal解題
+CodeSignal
 =
 Intro
 -
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Intro/add.jpg)
-就是把兩個數字加起來:)
+#add
+就是把兩個數字加起來
 
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Intro/centuryFromYear.jpg)
 
