@@ -34,6 +34,10 @@ makeArrayConsecutive2
 每個雕像的size要嚴格遞增，兩兩間差距要是1<br>
 矩陣裡面的數字MAX-min=要有的差距位置，再-現在已經有的差距位置<br>
 因為是差距位置不是數字，所以長度要-1
+<br>
+<br>
+<br>
+
 
 Python
 =
