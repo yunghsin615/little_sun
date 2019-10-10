@@ -1,4 +1,4 @@
-# little_sun
+# little_sun☀
 學習notes
 
 WEEK1
