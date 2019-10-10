@@ -53,7 +53,7 @@ Efficient Comparison
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/3.jpg)
 Special Conditional
 -
-括號先讀取，再從左讀到右，選像三會先讀成 a == not
+括號先讀取，再從左讀到右，選項三會先讀成 a == not
 
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/4.jpg)
 Language Differences
