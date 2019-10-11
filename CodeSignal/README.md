@@ -100,6 +100,9 @@ Count Bits
 -
 從10進位換成2進位會變成幾位數?<br>
 剛好有這個語法
+<br>
+<br>
+<br>
 
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/6.jpg)
 Modulus
