@@ -25,6 +25,7 @@ checkPalindrome
 <br>
 <br>
 <br>
+
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Intro/adjacentElementsProduct.jpg)
 adjacentElementsProduct
 -
@@ -51,11 +52,12 @@ makeArrayConsecutive2
 <br>
 <br>
 <br>
+
+------------------------------------------------------------------------------------------------
 <br>
 <br>
 <br>
 
-------------------------------------------------------------------------------------------------
 Python
 =
 
