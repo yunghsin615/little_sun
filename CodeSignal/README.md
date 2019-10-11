@@ -16,6 +16,7 @@ centuryFromYear
 <br>
 <br>
 <br>
+
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Intro/checkPalindrome.jpg)
 checkPalindrome
 -
@@ -32,6 +33,7 @@ adjacentElementsProduct
 <br>
 <br>
 <br>
+
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Intro/shapeArea.jpg)
 shapeArea
 -
@@ -39,6 +41,7 @@ shapeArea
 <br>
 <br>
 <br>
+
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Intro/makeArrayConsecutive2.jpg)
 makeArrayConsecutive2
 -
@@ -51,6 +54,8 @@ makeArrayConsecutive2
 <br>
 <br>
 <br>
+
+------------------------------------------------------------------------------------------------
 Python
 =
 
@@ -63,6 +68,7 @@ res[0]=True，把res的index位置0變成True<br>
 <br>
 <br>
 <br>
+
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/2.jpg)
 Efficient Comparison
 -
@@ -70,6 +76,7 @@ Efficient Comparison
 <br>
 <br>
 <br>
+
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/3.jpg)
 Special Conditional
 -
@@ -77,6 +84,7 @@ Special Conditional
 <br>
 <br>
 <br>
+
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/4.jpg)
 Language Differences
 -
@@ -84,6 +92,7 @@ Language Differences
 <br>
 <br>
 <br>
+
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/5.jpg)
 Count Bits
 -
