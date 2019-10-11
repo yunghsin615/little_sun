@@ -10,6 +10,7 @@ WEEK2
 =
 linked-list
   -
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/linked-list.jpg)
 <br>
 
 WEEK3
