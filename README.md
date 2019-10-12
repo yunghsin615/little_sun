@@ -22,6 +22,7 @@ WEEK3
 =
 stack &  queue
   -
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/stack&queue.jpg)
 stack - 像堆盤子，最後一個放入的在top，使用在undo回到上一部的功能，先進後出<br>
 queue - 像排隊，最後一個放入的在隊伍最後面，先進先出
 
