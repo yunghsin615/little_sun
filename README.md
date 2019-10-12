@@ -47,7 +47,7 @@ WEEK4
 =
 set
   -
-![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/set.jpg)
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/set.jpg)<br>
 在紙上寫出邏輯，再寫進Python<br>
 我用的是老師給的方法的Approach 1: Brute Force <br>
 用相同的邏輯把java換成python<br>
