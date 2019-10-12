@@ -45,7 +45,23 @@ getSize - 回傳Queue裡的資料個數
 
 WEEK4
 =
-set mismatch
+set
   -
-insertion sort
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/set.jpg)
+在紙上寫出邏輯，再寫進Python<br>
+我用的是老師給的方法的Approach 1: Brute Force <br>
+用相同的邏輯把java換成python<br>
+課堂上失敗，10/12 run code過了，submit沒過:(
+
+Insertion Sort
   -
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/insertion_sort.jpg)
+用第一個數字當作基準點，第二個往前和第一個比較，第三個往前和第二比較再和第一比較...以此類推<br>
+每一次都是兩兩比較，執行效率比較慢
+
+Quick Sort
+ -
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/quick_sort.jpg)
+先找一個數字設為基準點，比他大的一堆，比他小的一堆<br>
+兩堆再各自有一個基準點，一樣再分大小，執行效率比較快
+
