@@ -52,7 +52,7 @@ set
 我用的是老師給的方法的Approach 1: Brute Force <br>
 用相同的邏輯把java換成python<br>
 課堂上失敗，10/12 run code過了，submit沒過:( 以下是錯誤的<br>
-![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/wrongset.jpg)<br>
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/wrong_set.jpg)<br>
 10/15終於成功了，有點久(´･ω･`)<br>
 迴圈的for i in range()括號裡的len+1，不然不會讀取到最後一個位置的數值<br>
 例如: list=[0,0,0,0]<br>
