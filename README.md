@@ -61,6 +61,9 @@ set
       1<br>
       2<br>
       3<br>
+還有for環圈的重點要知道哪裡開始哪裡結束!<br>
+一開始就沒好好搞懂邏輯才會不知道第一個for環圈的結束位置在missing=i，所以縮排才會錯<br>
+最後終於submit也過了，但Time Limit Exceeded，用了兩個迴圈執行效率太差，再接再厲<br>
       
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/set.jpg)
 
