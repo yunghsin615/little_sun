@@ -1,6 +1,6 @@
 # little_sun☀
 學習notes
-- [Quick sort](#First)
+- [HW1:Quick_sort Code](#First)
 
 
 WEEK1
@@ -55,7 +55,7 @@ set
 用相同的邏輯把java換成python<br>
 課堂上失敗，10/12 run code過了，submit沒過:( 以下是錯誤的<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/wrong_set.jpg)<br>
-10/15終於成功了，有點久(´･ω･`)<br>
+10/15終於成功了，有點久(=･ω･=)  <br>
 迴圈的for i in range()括號裡的len+1，不然不會讀取到最後一個位置的數值<br>
 例如: list=[0,0,0,0]<br>
       for i in range(1,len(nums)):<br>
@@ -77,11 +77,9 @@ Insertion Sort
 每一次都是兩兩比較，執行效率比較慢
 
 <h2 id="First">Quick Sort<h2><br>
- -
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/quick_sort.jpg)
 先找一個數字設為基準點，比他大的一堆，比他小的一堆<br>
-兩堆再各自有一個基準點，一樣再分大小，執行效率比較快
+兩堆再各自有一個基準點，一樣再分大小，執行效率比較快<br>
 
-
-[請點連結](https://nbviewer.jupyter.org/github/yunghsin615/little_sun/blob/master/LeetCode/quick_sort.ipynb)
+[HW1:Quick_Sort Code](https://nbviewer.jupyter.org/github/yunghsin615/little_sun/blob/master/LeetCode/quick_sort.ipynb)
 
