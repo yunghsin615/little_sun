@@ -81,5 +81,5 @@ Quick Sort
 兩堆再各自有一個基準點，一樣再分大小，執行效率比較快
 
 
-[請點連結](https://nbviewer.jupyter.org/github/yunghsin615/little_sun/blob/master/quick_sort.ipynb)
+[請點連結](https://github.com/yunghsin615/little_sun/blob/master/LeetCode/quick_sort.ipynb)
 
