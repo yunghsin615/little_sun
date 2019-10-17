@@ -1,6 +1,6 @@
 # little_sun☀
 學習notes
-- [Quick Sort](Quick Sort)
+<h2 id="First">Quick Sort</h2>
 
 
 WEEK1
@@ -76,7 +76,7 @@ Insertion Sort
 用第一個數字當作基準點，第二個往前和第一個比較，第三個往前和第二比較再和第一比較...以此類推<br>
 每一次都是兩兩比較，執行效率比較慢
 
-Quick Sort
+<h2 id="First">Quick Sort
  -
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/quick_sort.jpg)
 先找一個數字設為基準點，比他大的一堆，比他小的一堆<br>
