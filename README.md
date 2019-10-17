@@ -1,6 +1,6 @@
 # little_sun☀
 學習notes
-- [Quick Sort](#Quick Sort)
+- [Quick Sort](Quick Sort)
 
 
 WEEK1
