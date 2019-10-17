@@ -83,4 +83,6 @@ Insertion Sort
 兩堆再各自有一個基準點，一樣再分大小，執行效率比較快<br>
 
 [HW1:Quick_Sort Code](https://nbviewer.jupyter.org/github/yunghsin615/little_sun/blob/master/HomeWork/quick_sort.ipynb)
+流程圖
+![image](https://github.com/yunghsin615/little_sun/blob/master/HomeWork/quick_sort.jpg)
 
