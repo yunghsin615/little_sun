@@ -84,6 +84,6 @@ Insertion Sort
 
 [HW1:Quick_Sort Code](https://nbviewer.jupyter.org/github/yunghsin615/little_sun/blob/master/HomeWork/quick_sort.ipynb)
 -
-流程圖<br>
+流程圖 made by myself<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/HomeWork/quick_sort.jpg)
 
