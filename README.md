@@ -87,3 +87,10 @@ Insertion Sort
 流程圖 made by myself<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/HomeWork/quick_sort.jpg)
 
+WEEK5
+=
+Happy Double Tenth Day 🇹🇼
+-
+
+WEEK6
+=
