@@ -89,8 +89,10 @@ Insertion Sort
 
 WEEK5
 =
-Happy Double Tenth Day 🇹🇼
+Happy Double Tenth Day 
 -
 
 WEEK6
 =
+Heap Sort
+-
