@@ -92,7 +92,12 @@ WEEK5
 Happy Double Tenth Day 
 -
 
-##WEEK6
+WEEK6
+=
+Heap & Heap Sort
+-
 
-###HEAP&HHeap Sort
-
+week7
+=
+Merge Sort
+-
