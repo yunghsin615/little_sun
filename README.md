@@ -3,13 +3,13 @@
 - [HW1:Quick_sort Code](#First)
 
 
-WEEK1
-=
+# WEEK1
+
 Happy Moon Festival 🌕
 -
 
-WEEK2
-=
+# WEEK2
+
 linked-list
   -
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/linked-list.jpg)
