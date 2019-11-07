@@ -21,7 +21,7 @@
 算式 = Ο(n) + Ο( n log n) = Ο( n log n)<br>
 所以ans:nlogn<br>
 ### 空間複雜度:
-我們都以二元數的方式思考，但它只有在原來的list裡面交換而已(In-Place)<br>
+我們都以二元樹的方式思考，但它只有在原來的list裡面交換而已(In-Place)<br>
 所以ans:O(1)
 ### 穩定度:
 因為有排序的問題，如果input本身就剛好是MAX Heap，那根本不用Heapify，可以直接heap_sort<br>
