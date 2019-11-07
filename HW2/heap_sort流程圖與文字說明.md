@@ -8,8 +8,8 @@ Time Complexity = Nlog^N<br>
 這時再把這個Heap MAX化，把最後的leaf跟root換，再把這個值排進output的倒數第二個位置，就這樣排到只剩下一個數字為止<br>
 這邊的重點是如何creat a MAX Heap<br>
 
-![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/Heapify.jpg)
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/Heapify.png)
 
-![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort.jpg)
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort.png)
 
-![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort2.jpg)
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort2.png)
