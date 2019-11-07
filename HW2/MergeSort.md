@@ -1,0 +1,14 @@
+# MergeSort
+
+Time Complexity = Nlog^N<br>
+每次都把一個數列分為兩堆，直到剩下1個為止，不像QuickSort會有選pivot的運氣問題，而是成穩定的時間狀態<br>
+一個數字和一個數字比較後合併成兩個數字的數列，兩個數字和兩個數字比較後合併成四個數字的數列...以此類推<br>
+一層一層合併到變成原本的長度就結束了，然後這時數字要是按照排列的<br>
+我會把它拆解成兩個部分來看，第一部分是**sort**，分堆後比大小的過程<br>
+第二部分是**merge**，比完大小並把他們匯集成同個陣列的過程<br>
+其實雖然說是拆成兩個部分來看，但它們的意義沒有完全被分開<br>
+
+
+以下是流程圖<br>
+-
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/MergeSort.png)
