@@ -24,6 +24,7 @@ j=j+1   可能剩下的不只一個數字，所以還要+1，再繼續跑迴圈
 但如果只有這樣的話，j遲早會==(B)，迴圈會一直被滿足，不會停止<br>
 **while(i==len(A) and j==len(B))** !!!這句很重要，代表一個停止條件式<br>
 <br>
+
 以下是流程圖<br>
 -
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/MergeSort.png)
