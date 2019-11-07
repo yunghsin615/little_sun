@@ -9,15 +9,16 @@ Time Complexity = Nlog^N<br>
 再把這個值排進output的倒數第二個位置，就這樣排到只剩下一個數字為止<br>
 <br>
 <br>
-### 以下的重點是如何creat a MAX Heap<br>
+以下的重點是如何creat a MAX Heap<br>
+-
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/Heapify.png)
 
 <br>
 <br>
 
 <br>
-### 以下流程圖省略每次Heapify的過程，重點在於如何sort<br>
-
+以下流程圖省略每次Heapify的過程，重點在於如何sort<br>
+-
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort.png)
 
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort2.png)
