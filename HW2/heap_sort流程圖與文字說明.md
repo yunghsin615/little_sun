@@ -14,8 +14,10 @@ Time Complexity = Nlog^N<br>
 
 <br>
 <br>
+
 <br>
 ### 以下流程圖省略每次Heapify的過程，重點在於如何sort<br>
+
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort.png)
 
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort2.png)
