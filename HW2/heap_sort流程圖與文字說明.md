@@ -1,6 +1,7 @@
 HeapSort
 =
 
+
 Time Complexity = Nlog^N<br>
 以二元樹(Binary Tree)為基礎，分為父節點和子節點，每個父節點最多只有兩個子節點<br>
 我做的是MAX Heap，每個父節點都要比他的子節點大，反之min Heap就是每個父節點都要比他的子節點小<br>
