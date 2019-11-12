@@ -30,3 +30,8 @@ j=j+1   可能剩下的不只一個數字，所以還要+1，再繼續跑迴圈
 以下是流程圖<br>
 -
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/MergeSort.png)
+
+參考資料<br>
+-
+ref1 = https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-4990a5757aa6<br>
+ref2 = https://yunlinsong.blogspot.com/2017/05/python.html　
