@@ -57,3 +57,6 @@ end = end-1遞減迴圈，當位置都排完時，end會==0，這時迴圈就會
 
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort2.png)
  
+參考資料<br>
+-
+ref = https://github.com/minsuk-heo/problemsolving/blob/master/sort/HeapSort.py
