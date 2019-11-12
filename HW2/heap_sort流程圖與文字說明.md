@@ -9,10 +9,12 @@ Time Complexity = Nlog^N<br>
 <br>
 <br>
 ### swap
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/def_swap.jpg)
 因為會很常用到這個功能，所以先定義，這樣版面才不會太亂(⁎⁍̴̛ᴗ⁍̴̛⁎)<br>
 <br>
 <br>
 ### heapify
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/def_heapify.jpg)
 MAX = i 目前MAX這個位置放在i這邊<br>
 L,R = i*2+1,i*2+2 L是左子節點，R是右子節點<br>
 if L<size and array[L]>array[i]: MAX = L <br>
@@ -25,6 +27,7 @@ self.heapify(array,MAX,size) 而這時以MAX這個位置為父節點，再比較
 <br>
 <br>
 ### heap_sort
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/def_heap_sort.jpg)
 p = (size//2)-1 代表最後一個父節點的位置<br>
 for k in range(p,-1,-1): self.heapify(nums,k,size)<br>
 遞減迴圈，中間寫-1，代表跑到0才會停止<br>
