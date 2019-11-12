@@ -10,12 +10,14 @@ Time Complexity = Nlog^N<br>
 <br>
 <br>
 ### merge_sort<br>
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/def_merge_sort.jpg)
 帶入我的流程圖做解釋，middle = int (len(nums)/2)=4<br>
 left=self.merge_sort(nums[:middle])  冒號在前面代表沒有包含這個位置(0-3)的前面的值<br>
 right=self.merge_sort(nums[middle:]) 冒號在後面代表有包含這個位置(4-7)的後面的值<br>
 全部分完變成一個一個後，再呼叫Merge<br>
 <br>
 ### Merge<br>
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/def_Merge.jpg)
 while (i<len(A) and j<len(B)): 比較小的那個append到空陣列C裡面<br>
 while (i==len(A) or j==len(B)): 當滿足其中一個條件時，代表那個陣列已經空了<br>
 if(i == len(A)): 代表A陣列已經空了
