@@ -150,6 +150,7 @@ insert新增<br>
 <br>
 <br>
 <br>
+
 search搜尋<br>
 -
 我search一個2.5<br>
@@ -163,6 +164,7 @@ search搜尋<br>
 <br>
 <br>
 <br>
+
 delete刪除<br>
 -
 我delete寫了四種可能，但實際上超級多種可能，看我的def寫了160行就知道了<br>
