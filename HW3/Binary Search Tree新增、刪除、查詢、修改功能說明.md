@@ -42,6 +42,7 @@ Binary Search Tree新增、刪除、查詢、修改功能說明
 
 刪除(delete)
 =
+以下是delete的程式碼<br>
     def delete(self, root, target):
         """
         :type root: TreeNode
@@ -211,6 +212,7 @@ Binary Search Tree新增、刪除、查詢、修改功能說明
 
 查詢(search)
 =
+以下是search的程式碼<br>
     def search(self, root, target):
         """
         :type root: TreeNode
@@ -241,6 +243,7 @@ Binary Search Tree新增、刪除、查詢、修改功能說明
 
 修改(modify)
 =
+以下是modify的程式碼<br>
     def delete(self, root, target):
         """
         :type root: TreeNode
