@@ -165,3 +165,10 @@ delete刪除<br>
 卡最久的地方是刪除root而且它只有一個child的時候，這時候的可能性會有超級多!!!<br>
 拜託拜託，希望所有可能我都有想到了ಥ_ಥ<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/delete.jpg)
+<br>
+參考資料:<br>
+https://www.tutorialspoint.com/python_data_structure/python_binary_search_tree.htm<br>
+http://alrightchiu.github.io/SecondRound/binary-search-tree-searchsou-xun-zi-liao-insertxin-zeng-zi-liao.html<br>
+http://alrightchiu.github.io/SecondRound/binary-search-tree-sortpai-xu-deleteshan-chu-zi-liao.html<br>
+https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/<br>
+https://medium.com/@stephenagrice/how-to-implement-a-binary-search-tree-in-python-e1cdba29c533<br>
