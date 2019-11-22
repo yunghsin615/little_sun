@@ -5,10 +5,10 @@ Binary Search Tree(二元搜尋樹)
 相較於上次作業的heap的Binary Tree，差別是Binary Tree一定是有兩個child，才會往下個位置擺node<br>
 Binary Search Tree則是可以只有一個child，然後那個child可能還有一個或兩個child<br>
 那為什麼要建立Binary Search Tree?<br>
-如果我們有非常大量的資料，就可以依照**比root小或等於root就往left擺**和**比root大就往right擺**的原則來做不管是搜尋、刪除或修改的這些動作，這樣就不需要把全部的資料掃過一遍，而是有脈絡的去找到那個node<br>
+如果我們有非常大量的資料，就可以依照**比root小或等於root就往left擺**和**比root大就往right擺**的原則來做不管是搜尋、刪除或修改的這些動作，這樣就不需要把全部的資料掃過一遍，而是有脈絡的去找到那個node，耗費的時間會比較短<br>
 <br>
 我的學習歷程是先從第一週教的linked-list開始<br>
-前幾週都覺得沒辦法理解，完成後就覺得也沒那麼難嘛，然後我的方法是先有大概的想法再手寫，最後才打程式，幾乎沒有錯誤<br>
+前幾週都覺得沒辦法理解，完成後就覺得也沒那麼難嘛，我的方法是先有大概的想法再手寫，最後才打程式，幾乎沒有錯誤<br>
 好的，以下是我linked-list的程式碼<br>
 class Node(object):
 
@@ -142,12 +142,26 @@ class MyLinkedList(object):
 
 insert新增<br>
 -
+我insert一個2，流程圖的說明直接手寫在上面<br>
+大概就是小於等於2的時候，往左邊找位子，大於2的時候，往右邊找位子<br>
+找到位子的時候他就會建一個Treenode(2)在那邊<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/insert.jpg)
 
 search搜尋<br>
 -
+我search一個2.5<br>
+也是小於等於2.5的時候，往左邊找，大於2.5的時候，往右邊找<br>
+因為建樹的時候都有按照這個原則，所以tree裡面有2.5的話，就一定找的到<br>
+然後我再搜尋一個3.5<br>
+小於等於3.5的時候，往左邊找，大於3.5的時候，往右邊找<br>
+一樣，建樹的時候都有按照這個原則，所以tree裡面的指向==None的時候，代表沒有這個數字，不可能會在別的位置上<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/search.jpg)
 
 delete刪除<br>
 -
+我delete寫了四種可能，但實際上超級多種可能，看我的def寫了160行就知道了<br>
+我寫的四種可能:1.刪除值沒有child 2.刪除值只有右邊的child 3.刪除值只有左邊的child 4.刪除值有兩邊的child<br>
+寫delete真的是重重關卡，一直以為寫完了，然後測不同的值，就又發現漏洞<br>
+卡最久的地方是刪除root而且它只有一個child的時候，這時候的可能性會有超級多!!!<br>
+拜託拜託，希望所有可能我都有想到了ಥ_ಥ<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/delete.jpg)
