@@ -1,6 +1,7 @@
 新增
 =
-  def insert(self, root, val):
+
+      def insert(self, root, val):
         """
         :type root: TreeNode
         :type val: int
