@@ -43,6 +43,7 @@ Binary Search Tree新增、刪除、查詢、修改功能說明
 刪除(delete)
 =
 以下是delete的程式碼<br>
+先搜尋再把全部搜尋到的值全部刪除
 
     def delete(self, root, target):
         """
@@ -214,6 +215,7 @@ Binary Search Tree新增、刪除、查詢、修改功能說明
 查詢(search)
 =
 以下是search的程式碼<br>
+找到的話return root，找不到return None<br>
 
     def search(self, root, target):
         """
@@ -246,6 +248,7 @@ Binary Search Tree新增、刪除、查詢、修改功能說明
 修改(modify)
 =
 以下是modify的程式碼<br>
+刪除一個target就新增一個new_val，所以刪除幾個就會新增幾個<br>
 
     def delete(self, root, target):
         """
