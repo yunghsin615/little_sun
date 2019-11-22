@@ -145,8 +145,11 @@ insert新增<br>
 我insert一個2，流程圖的說明直接手寫在上面<br>
 大概就是小於等於2的時候，往左邊找位子，大於2的時候，往右邊找位子<br>
 找到位子的時候他就會建一個Treenode(2)在那邊<br>
+<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/insert.jpg)
-
+<br>
+<br>
+<br>
 search搜尋<br>
 -
 我search一個2.5<br>
@@ -155,8 +158,11 @@ search搜尋<br>
 然後我再搜尋一個3.5<br>
 小於等於3.5的時候，往左邊找，大於3.5的時候，往右邊找<br>
 一樣，建樹的時候都有按照這個原則，所以tree裡面的指向==None的時候，代表沒有這個數字，不可能會在別的位置上<br>
+<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/search.jpg)
-
+<br>
+<br>
+<br>
 delete刪除<br>
 -
 我delete寫了四種可能，但實際上超級多種可能，看我的def寫了160行就知道了<br>
@@ -164,7 +170,9 @@ delete刪除<br>
 寫delete真的是重重關卡，一直以為寫完了，然後測不同的值，就又發現漏洞<br>
 卡最久的地方是刪除root而且它只有一個child的時候，這時候的可能性會有超級多!!!<br>
 拜託拜託，希望所有可能我都有想到了ಥ_ಥ<br>
+<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/delete.jpg)
+<br>
 <br>
 參考資料:<br>
 https://www.tutorialspoint.com/python_data_structure/python_binary_search_tree.htm<br>
