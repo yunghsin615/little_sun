@@ -1,3 +1,7 @@
+Binary Search Tree新增、刪除、查詢、修改功能說明
+=
+以下直接在每個程式碼後面說明
+
 新增(insert)
 =
 以下是insert的程式碼<br>
