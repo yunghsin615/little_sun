@@ -176,6 +176,17 @@ delete刪除<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/delete.jpg)
 <br>
 <br>
+<br>
+
+modify修改<br>
+-
+有些人的做法是先把所有target刪除，然後計算刪除的次數，刪除幾個，就再新增幾個new_val<br>
+我的方法是刪除一個target，我就新增一個new_val，至於樹高的部分會不會小於等於我就不會整理了<br>
+程式碼的部分是把delete全部搬過來，再在迴圈裡面加入self.insert(i,new_val)，也就是刪除一次我就新增一次<br>
+<br>
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/modify.jpg)
+<br>
+<br>
 參考資料:<br>
 https://www.tutorialspoint.com/python_data_structure/python_binary_search_tree.htm<br>
 http://alrightchiu.github.io/SecondRound/binary-search-tree-searchsou-xun-zi-liao-insertxin-zeng-zi-liao.html<br>
