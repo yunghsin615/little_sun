@@ -10,24 +10,14 @@ class ListNode:
     def __init__(self, val):
         self.val = val
         self.next = None
-        """
-        :type val: int
-        :type next: ListNode
-        :rtype: None        
-        """
+        
 class MyHashSet:
     def __init__(self, capacity=5):
         self.capacity = capacity
         self.data = [None] * capacity
-        """
-        :type capacity: int
-        :rtype: None
-        """
+        
     def add(self, key):
-        """
-        :type key: str
-        :rtype: None
-        """
+        
         number = int(MD5.new(key.encode("utf-8")).hexdigest(),16)
         index = number % self.capacity
         
@@ -40,10 +30,7 @@ class MyHashSet:
             self.data[index] = new_node
             
     def remove(self, key):
-        """
-        :type key: str
-        :rtype: None
-        """
+
         while self.contains(key) != False:
             number = int(MD5.new(key.encode("utf-8")).hexdigest(),16)
             index = number % self.capacity
@@ -74,10 +61,7 @@ class MyHashSet:
             return
         
     def contains(self, key):
-        """
-        :type key: str
-        :rtype: bool(True or False)
-        """
+
         number = int(MD5.new(key.encode("utf-8")).hexdigest(),16)
         index = number % self.capacity
         blank = self.data[index]
