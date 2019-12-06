@@ -10,19 +10,19 @@ Happy Moon Festival 🌕
 # WEEK2
 
 linked-list
-  -
+-
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/linked-list.jpg)
-array需要一整塊連續的記憶體空間<br>
-lined-list可以由一個一個空間拼湊起來<br>
-影片裡面有**新增**，nodeA = Node(數字)，nodeA.next=nodeB<br>
+array需要一整塊連續的記憶體空間，刪除需要整塊做調整<br>
+lined-list可以由一個一個空間拼湊起來，這樣刪除的話，就不用整塊調整<br>
+影片裡面有**新增**，假如我要新增2，nodeA = Node(2)，nodeA.next=nodeB，也就是nodeA -> nodeB<br>
 還有**走訪**當current.next!=none時，count就+1，不再+的話代表是最後一個，那就可以知道長度了<br>
 除了上述兩個功能，還有**刪除**和**查詢**兩個功能可以操作<br>
 <br>
 
-WEEK3
-=
+# WEEK3
+
 Stack &  Queue
-  -
+-
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/stack&queue.jpg)
 Stack
 -
@@ -62,7 +62,7 @@ set
       1<br>
       2<br>
       3<br>
-還有for環圈的重點要知道哪裡開始哪裡結束!<br>
+還有for迴圈的重點要知道哪裡開始哪裡結束!<br>
 一開始就沒好好搞懂邏輯才會不知道第一個for環圈的結束位置在missing=i，所以縮排才會錯<br>
 最後終於submit也過了，但Time Limit Exceeded，用了兩個迴圈執行效率太差，再接再厲<br>
       
@@ -70,17 +70,18 @@ set
 
 
 Insertion Sort
-  -
+-
 
 用第一個數字當作基準點，第二個往前和第一個比較，第三個往前和第二比較再和第一比較...以此類推<br>
 每一次都是兩兩比較，執行效率比較慢
 
-<h2 id="First">Quick Sort</h2><br>
+Quick Sort
+-
   
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/insertion_sort.jpg)<br>
 先找一個數字設為基準點，比他大的一堆，比他小的一堆<br>
 兩堆再各自有一個基準點，一樣再分大小，執行效率比較快<br>
-<
+<br>
 流程圖 made by myself<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/HomeWork/quick_sort.jpg)
 
