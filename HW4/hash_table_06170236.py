@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 from Crypto.Hash import MD5
 
 class ListNode:
@@ -18,7 +12,9 @@ class MyHashSet:
         
     def add(self, key):
         
-        number = int(MD5.new(key.encode("utf-8")).hexdigest(),16)
+        code = MD5.new()
+        code.update(key.encode("utf-8"))
+        number = int(code.hexdigest(),16)
         index = number % self.capacity
         
         if self.data[index] == None:
@@ -30,9 +26,11 @@ class MyHashSet:
             self.data[index] = new_node
             
     def remove(self, key):
-
+        
         while self.contains(key) != False:
-            number = int(MD5.new(key.encode("utf-8")).hexdigest(),16)
+            code = MD5.new()
+            code.update(key.encode("utf-8"))
+            number = int(code.hexdigest(),16)
             index = number % self.capacity
             blank = self.data[index]
             
@@ -61,8 +59,10 @@ class MyHashSet:
             return
         
     def contains(self, key):
-
-        number = int(MD5.new(key.encode("utf-8")).hexdigest(),16)
+        
+        code = MD5.new()
+        code.update(key.encode("utf-8"))
+        number = int(code.hexdigest(),16)
         index = number % self.capacity
         blank = self.data[index]
         
@@ -79,10 +79,3 @@ class MyHashSet:
             
                     if blank == None:
                         return False
-
-
-# 參考資料：<br>
-# https://www.cs.wcupa.edu/rkline/ds/hash-sets.html<br>
-# https://www.runoob.com/python/func-number-abs.html #絕對值<br>
-# https://blog.csdn.net/qq_40587575/article/details/82431806 #return用法<br>
-# https://github.com/yunghsin615/little_sun/blob/master/LeetCode/linked_list.py #我自己的linked-list<br>
