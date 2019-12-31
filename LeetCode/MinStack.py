@@ -1,52 +1,44 @@
 class Node:
-    def __init__(self, val, nextNode=None):
+    def __init__(self, val):
         self.val = val
         self.temp_min = val
-        self.next = nextNode
         
-    
 class MinStack(object):
 
     def __init__(self):
         """
-        initialize your data structure here.\
+        initialize your data structure here.
         """
-
-        self.topNode = None
+        self.arr = []
         
-
     def push(self, x):
-        """
-        :type x: int
-        :rtype: None
-        """
-        if self.topNode == None:
-            self.topNode = Node(x,None)
+        if len(self.arr) == 0:
+            self.arr.append(x)
+            self.temp_min = x
         else:
-            temp = self.topNode.temp_min
-            self.topNode = Node(x,self.topNode)
-            if temp < self.topNode.val:
-                self.topNode.temp_min = temp
-        
+            self.arr.append(x)
+            if self.temp_min > self.arr[-1]:
+                self.temp_min = self.arr[-1]
+
+
     def pop(self):
         """
         :rtype: None
         """
-        self.topNode = self.topNode.next
+        self.arr.pop()
 
     def top(self):
         """
         :rtype: int
         """
-        return self.topNode.val
+        return self.arr[-1]
 
     def getMin(self):
         """
         :rtype: int
         """
-        return self.topNode.temp_min
-        
-
+        sort = sorted(self.arr)
+        return sort[0]
 
 # Your MinStack object will be instantiated and called as such:
 # obj = MinStack()
