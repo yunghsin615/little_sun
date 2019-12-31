@@ -92,10 +92,50 @@ Happy Double Tenth Day
 
 WEEK6
 =
-Heap & Heap Sort
+Quick & Heap Sort
 -
 
-week7
+WEEK7
 =
 Merge Sort
+-
+
+WEEK8
+=
+Binary Tree
+-
+
+WEEK9
+=
+Binary Search Tree
+-
+
+WEEK10
+=
+Red Black Tree
+-
+
+WEEK11
+=
+Hash Table
+-
+
+WEEK12
+=
+Breadth-First Search
+-
+
+WEEK13
+=
+Depth-First Search
+-
+
+WEEK14
+=
+Minimum Spanning Tree
+-
+
+WEEK15
+=
+Shortest Path
 -
