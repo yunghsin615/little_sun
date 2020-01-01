@@ -25,9 +25,7 @@ class MyQueue(object):
             a = self.inputStack[0]
             self.inputStack.pop(0)
             return a
-        
-        else:
-            return
+
   
     def peek(self):
         """
@@ -36,9 +34,7 @@ class MyQueue(object):
         """
         if self.inputStack:
             return self.inputStack[0]
-        
-        else:
-            return
+
    
     def empty(self):
         """
