@@ -5,8 +5,6 @@ class MyQueue(object):
         Initialize your data structure here.
         """
         self.inputStack = []
-        self.resStack = []
-        
 
     def push(self, x):
         """
