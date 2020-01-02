@@ -118,6 +118,7 @@ Time Complexity = Nlog^N
 我會把它拆解成兩個部分來看，第一部分是sort，分堆後比大小的過程<br>
 第二部分是merge，比完大小並把他們匯集成同個陣列的過程<br>
 其實雖然說是拆成兩個部分來看，但它們的意義沒有完全被分開<br>
+<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/MergeSort.png)
 
 WEEK8
