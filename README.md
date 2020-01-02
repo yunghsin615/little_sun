@@ -97,6 +97,17 @@ Time Complexity = Nlog^N<br>
 而最大的值就排進最後output值的最後一個位置這時再把這個Heap MAX化，把最後的leaf跟root換<br>
 再把這個值排進output的倒數第二個位置，就這樣排到只剩下一個數字為止<br>
 
+以下的重點是如何creat a MAX Heap<br>
+-
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/Heapify.png)
+
+以下流程圖省略每次Heapify的過程，重點在於如何sort<br>
+-
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort.png)
+
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort2.png)
+ 
+
 WEEK7
 =
 Merge Sort
@@ -108,13 +119,17 @@ Time Complexity = Nlog^N
 我會把它拆解成兩個部分來看，第一部分是sort，分堆後比大小的過程<br>
 第二部分是merge，比完大小並把他們匯集成同個陣列的過程<br>
 其實雖然說是拆成兩個部分來看，但它們的意義沒有完全被分開<br>
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/MergeSort.png)
+
 
 WEEK8
 =
 Binary Tree
 -
 由Linked-List為的演算法<br>
-
+照順序排樹，第一個是root，每個父節點最多會有兩個子節點(二元)，並且在前一個父節點滿兩個小孩後，才會再往下加<br>
+每個父節點都是parent，最下面的子節點是leaf，可以同時是父節點也是子節點<br>
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/BinaryTree.jpg)
 
 WEEK9
 =
@@ -132,6 +147,8 @@ WEEK10
 =
 Red Black Tree
 -
+以Binary Search Tree為基礎的演算法<br>
+
 
 WEEK11
 =
