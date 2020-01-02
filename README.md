@@ -47,8 +47,7 @@ getSize - 回傳Queue裡的資料個數
 WEEK4
 =
 set
-  -
-
+-
 在紙上寫出邏輯，再寫進Python<br>
 我用的是老師給的方法的Approach 1: Brute Force <br>
 用相同的邏輯把java換成python<br>
@@ -65,16 +64,14 @@ set
 還有for迴圈的重點要知道哪裡開始哪裡結束!<br>
 一開始就沒好好搞懂邏輯才會不知道第一個for環圈的結束位置在missing=i，所以縮排才會錯<br>
 最後終於submit也過了，但Time Limit Exceeded，用了兩個迴圈執行效率太差，再接再厲<br>
-      
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/set.jpg)
 
 
 Insertion Sort
 -
-
 用第一個數字當作基準點，第二個往前和第一個比較，第三個往前和第二比較再和第一比較...以此類推<br>
-每一次都是兩兩比較，執行效率比較慢<br>
-
+每一次都是兩兩比較，執行效率比較低，但是如果剛好排序已經是從小到大的話，時間就會很快<br>
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/insertion_sort.jpg)
 
 WEEK5
 =
@@ -85,7 +82,6 @@ WEEK6
 =
 Quick Sort
 -
-![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/insertion_sort.jpg)<br>
 先找一個數字設為基準點，比他大的一堆，比他小的一堆<br>
 兩堆再各自有一個基準點，一樣再分大小，執行效率比較快<br>
 <br>
