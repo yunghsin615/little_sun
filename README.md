@@ -127,7 +127,7 @@ Binary Tree
 由Linked-List為基礎的演算法<br>
 照順序排樹，第一個是root，每個父節點最多會有兩個子節點(二元)，並且在前一個父節點滿兩個小孩後，才會再往下加<br>
 每個父節點都是parent，最下面的子節點是Leaf，一個點可以同時是父節點也是子節點<br>
-![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/BinaryTree.jpg)
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/BinaryTree.png)
 
 WEEK9
 =
@@ -205,6 +205,7 @@ DFS是用以前老師教得stack的方式，後進先出的一個概念<br>
 臨邊點放進status1的順序還是照Adjacency List，但是是從最後一位(status1[-1])開始<br>
 每走訪一個點(u)，就再把沒有被走訪過的臨邊點(v)加進status1，原則是status1和status2的值不能重複<br><br>
 把每個點的臨邊點push進status1時，就要pop一個出來(status1[-1])，直到迴圈結束<br>
+![](https://i.imgur.com/vFw57lw.jpg) 1->2->4->5->8->3->6->7<br>
 
 WEEK14
 =
@@ -224,6 +225,8 @@ Minimum Spanning Tree
 diction的key是放起點到終點，value是放test的最後一項，也就是新加入的值<br>
 最後當有n個點的時候，就應該要有n-1個edge，這時迴圈結束<br>
 實際應用像是連結城市的通訊網，可以計算最低成本<br>
+{'1-4': 1, '4-6': 2, '0-5': 3, '0-1': 5, '2-3': 5, '3-4': 7} <br>
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/MST.jpg)
 
 WEEK15
 =
@@ -238,3 +241,5 @@ Shortest Path
 接下來就是找test=False(還沒被走過)的情況下，dist裡面最小的那個點<br>
 找出最小的點和那個點的index，再把test[index]變成True<br>
 最後dist就是從起點開始到各點的最短路徑，把它變成dictionary的形式就完成了<br>
+{'0': 0, '1': 4, '2': 12, '3': 19, '4': 21, '5': 11, '6': 9, '7': 8, '8': 14}<br>
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/SP.jpg)
