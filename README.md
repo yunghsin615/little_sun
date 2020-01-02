@@ -97,16 +97,15 @@ Time Complexity = Nlog^N<br>
 而最大的值就排進最後output值的最後一個位置這時再把這個Heap MAX化，把最後的leaf跟root換<br>
 再把這個值排進output的倒數第二個位置，就這樣排到只剩下一個數字為止<br>
 
-以下的重點是如何creat a MAX Heap<br>
+如何creat a MAX Heap<br>
 -
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/Heapify.png)
 
-以下流程圖省略每次Heapify的過程，重點在於如何sort<br>
+如何Heap sort<br>
 -
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort.png)
 
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort2.png)
- 
 
 WEEK7
 =
@@ -120,7 +119,6 @@ Time Complexity = Nlog^N
 第二部分是merge，比完大小並把他們匯集成同個陣列的過程<br>
 其實雖然說是拆成兩個部分來看，但它們的意義沒有完全被分開<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/MergeSort.png)
-
 
 WEEK8
 =
@@ -141,14 +139,25 @@ Binary Search Tree
 相較於上次作業的heap的Binary Tree，差別是Binary Tree一定是有兩個child，才會往下個位置擺node<br>
 Binary Search Tree則是可以只有一個child，然後那個child可能還有一個或兩個child<br>
 那為什麼要建立Binary Search Tree?<br>
-如果我們有非常大量的資料，就可以依照比root小或等於root就往left擺和比root大就往right擺的原則來做不管是搜尋、刪除或修改的這些動作，這樣就不需要把全部的資料掃過一遍，而是有脈絡的去找到那個node，耗費的時間會比較短<br>
+如果我們有非常大量的資料，就可以依照比root小或等於root就往left擺和比root大就往right擺的原則來做不管是搜尋、刪除或修改的這些動作<br>
+這樣就不需要把全部的資料掃過一遍，而是有脈絡的去找到那個node，耗費的時間會比較短<br>
 
 WEEK10
 =
 Red Black Tree
 -
 以Binary Search Tree為基礎的演算法<br>
+差異是在他需要**平衡**，在insert和delete的時候，要讓整棵樹平衡<br>
+首先有一些限制<br>
+一:每個節點不是紅或是黑<br>
+二:ROOT必須是黑<br>
+三:若節點為紅，其子節點必為黑<br>
+四:若節點為嘿，其子節點可為紅或黑<br>
+五:每個空節點都是黑<br>
+六:從ROOT到leaf的每條路徑，必包含相同數目的黑色節點<br>
 
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/BRT.jpg)
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/BRT2.jpg)
 
 WEEK11
 =
