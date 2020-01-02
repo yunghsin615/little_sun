@@ -124,7 +124,7 @@ WEEK8
 =
 Binary Tree
 -
-由Linked-List為的演算法<br>
+由Linked-List為基礎的演算法<br>
 照順序排樹，第一個是root，每個父節點最多會有兩個子節點(二元)，並且在前一個父節點滿兩個小孩後，才會再往下加<br>
 每個父節點都是parent，最下面的子節點是leaf，可以同時是父節點也是子節點<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/BinaryTree.jpg)
@@ -141,6 +141,7 @@ Binary Search Tree則是可以只有一個child，然後那個child可能還有�
 那為什麼要建立Binary Search Tree?<br>
 如果我們有非常大量的資料，就可以依照比root小或等於root就往left擺和比root大就往right擺的原則來做不管是搜尋、刪除或修改的這些動作<br>
 這樣就不需要把全部的資料掃過一遍，而是有脈絡的去找到那個node，耗費的時間會比較短<br>
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/BST.jpg)
 
 WEEK10
 =
