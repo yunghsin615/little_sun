@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 
 from collections import defaultdict 
 
@@ -25,8 +19,8 @@ class Graph():
         
         while test != [True] * self.V:
             for i in range(self.V):
-                if g.graph[s][i] != 0 and dist[s] + g.graph[s][i] < dist[i]:
-                    dist[i] = dist[s] + g.graph[s][i]
+                if self.graph[s][i] != 0 and dist[s] + self.graph[s][i] < dist[i]:
+                    dist[i] = dist[s] + self.graph[s][i]
                            
             m = float('inf')
             for k in range(self.V):
@@ -52,46 +46,47 @@ class Graph():
         
         for i in range(0,len(g.graph)):
                 
-            if root[g.graph[i][1]] != root[g.graph[i][2]]:
-                if root[g.graph[i][1]] == -1:
-                    root[g.graph[i][1]] = root[g.graph[i][2]]
+            if root[self.graph[i][1]] != root[self.graph[i][2]]:
+                if root[self.graph[i][1]] == -1:
+                    root[self.graph[i][1]] = root[self.graph[i][2]]
           
-                elif root[g.graph[i][2]] == -1:
-                    root[g.graph[i][2]] = root[g.graph[i][1]]
+                elif root[self.graph[i][2]] == -1:
+                    root[self.graph[i][2]] = root[self.graph[i][1]]
 
                 else:
-                    if root[g.graph[i][1]] > root[g.graph[i][2]]:
-                        h = root[g.graph[i][1]]
+                    if root[self.graph[i][1]] > root[self.graph[i][2]]:
+                        h = root[self.graph[i][1]]
                         for k in range(self.V):
                             if root[k] == h:
-                                root[k] = root[g.graph[i][2]]
+                                root[k] = root[self.graph[i][2]]
  
                     else:
-                        h = root[g.graph[i][2]]
+                        h = root[self.graph[i][2]]
                         for k in range(self.V):
                             if root[k] == h:
-                                root[k] = root[g.graph[i][1]]
+                                root[k] = root[self.graph[i][1]]
   
-            elif root[g.graph[i][1]] == root[g.graph[i][2]]:
-                if root[g.graph[i][1]] == -1:
-                    if g.graph[i][1] < g.graph[i][2]:
-                        root[g.graph[i][2]] = g.graph[i][1]
-                        root[g.graph[i][1]] = g.graph[i][1]
+            elif root[self.graph[i][1]] == root[self.graph[i][2]]:
+                if root[self.graph[i][1]] == -1:
+                    if self.graph[i][1] < self.graph[i][2]:
+                        root[self.graph[i][2]] = self.graph[i][1]
+                        root[self.graph[i][1]] = self.graph[i][1]
 
                     else:
-                        root[g.graph[i][1]] = g.graph[i][2]
-                        root[g.graph[i][2]] = g.graph[i][2]
+                        root[self.graph[i][1]] = self.graph[i][2]
+                        root[self.graph[i][2]] = self.graph[i][2]
                         
                 else:
                     continue
-            a = str(g.graph[i][1])
-            b = str(g.graph[i][2])
+            a = str(self.graph[i][1])
+            b = str(self.graph[i][2])
             c = str(a+'-'+b)
-            test.append(g.graph[i][0])
+            test.append(self.graph[i][0])
             diction[c]= test[-1]
 
             if len(test) == (len(root)-1):   
                 return diction
+            
             
 
 
