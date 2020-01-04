@@ -1,4 +1,3 @@
-
 from collections import defaultdict 
 
 class Graph(): 
@@ -36,7 +35,7 @@ class Graph():
                 return diction
             
     def Kruskal(self):
-        g.graph.sort()
+        self.graph.sort()
         root = []
         test = []
         diction={} 
@@ -44,7 +43,7 @@ class Graph():
         for i in range(self.V):
             root.append(-1)
         
-        for i in range(0,len(g.graph)):
+        for i in range(0,len(self.graph)):
                 
             if root[self.graph[i][1]] != root[self.graph[i][2]]:
                 if root[self.graph[i][1]] == -1:
@@ -86,10 +85,6 @@ class Graph():
 
             if len(test) == (len(root)-1):   
                 return diction
-            
-            
-
-
 # 參考資料<br>
 # https://blog.csdn.net/hellojoy/article/details/81077019 #無限大寫法<br>
 # https://www.geeksforgeeks.org/python-program-for-dijkstras-shortest-path-algorithm-greedy-algo-7/<br> 
