@@ -79,62 +79,38 @@ Insertion Sort
 ### WEEK6
 *   [HW1](https://github.com/yunghsin615/little_sun/tree/master/HW1)
 *   [Quick Sort程式碼](https://github.com/yunghsin615/little_sun/blob/master/HW1/quick_sort.ipynb)
-*   [Quick Sort流程圖]https://github.com/yunghsin615/little_sun/blob/master/HW1/quick_sort.jpg)
+*   [Quick Sort流程圖](https://github.com/yunghsin615/little_sun/blob/master/HW1/quick_sort.jpg)<br>
+<Br>
 
+Heap Sort<br>
+*   [HW2](https://github.com/yunghsin615/little_sun/tree/master/HW2)
+*   [Heap Sort程式碼](https://github.com/yunghsin615/little_sun/blob/master/HW2/heap_sort_06170236.py)
+*   [Heap Sort流程圖](https://github.com/yunghsin615/little_sun/blob/master/HW2/heap_sort%E6%B5%81%E7%A8%8B%E5%9C%96%E8%88%87%E6%96%87%E5%AD%97%E8%AA%AA%E6%98%8E.md)
+*   
 
-Heap Sort
--
-Time Complexity = Nlog^N<br>
-以二元樹(Binary Tree)為基礎，分為父節點和子節點，每個父節點最多只有兩個子節點<br>
-我做的是MAX Heap，每個父節點都要比他的子節點大，反之min Heap就是每個父節點都要比他的子節點小<br>
-最一開始要先把Heap MAX化，這時root肯定是最大的，再把最後那個leaf跟root換<br>
-而最大的值就排進最後output值的最後一個位置這時再把這個Heap MAX化，把最後的leaf跟root換<br>
-再把這個值排進output的倒數第二個位置，就這樣排到只剩下一個數字為止<br>
-
-如何creat a MAX Heap<br>
--
-![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/Heapify.png)
-
-如何Heap sort<br>
--
-![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort.png)
-
-![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort2.png)
 
 ### WEEK7
-Merge Sort
--
-Time Complexity = Nlog^N
-每次都把一個數列分為兩堆，直到剩下1個為止，不像QuickSort會有選pivot的運氣問題，而是成穩定的時間狀態<br>
-一個數字和一個數字比較後合併成兩個數字的數列，兩個數字和兩個數字比較後合併成四個數字的數列...以此類推<br>
-一層一層合併到變成原本的長度就結束了，然後這時數字要是按照排列的<br>
-我會把它拆解成兩個部分來看，第一部分是sort，分堆後比大小的過程<br>
-第二部分是merge，比完大小並把他們匯集成同個陣列的過程<br>
-其實雖然說是拆成兩個部分來看，但它們的意義沒有完全被分開<br>
-<br>
-![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/MergeSort.png)
+Merge Sort<br>
+*   [HW2](https://github.com/yunghsin615/little_sun/tree/master/HW2)
+*   [Merge Sort程式碼](https://github.com/yunghsin615/little_sun/blob/master/HW2/merge_sort_06170236.py)
+*   [Merge Sort流程圖](https://github.com/yunghsin615/little_sun/blob/master/HW2/merge_sort%E6%B5%81%E7%A8%8B%E5%9C%96%E8%88%87%E6%96%87%E5%AD%97%E8%AA%AA%E6%98%8E.md)
+*   [Merge Sort & Heap Sort的比較](https://github.com/yunghsin615/little_sun/blob/master/HW2/Comparison.md)
 
-WEEK8
-=
-Binary Tree
--
+
+
+### WEEK8
+Binary Tree<br>
 由Linked-List為基礎的演算法<br>
 照順序排樹，第一個是root，每個父節點最多會有兩個子節點(二元)，並且在前一個父節點滿兩個小孩後，才會再往下加<br>
 每個父節點都是parent，最下面的子節點是Leaf，一個點可以同時是父節點也是子節點<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/BinaryTree.jpg)
 
 ### WEEK9
-Binary Search Tree
--
-由Linked-List為基準的演算法<br>
-首先，加入的第一個值會是這個樹的root<br>
-再接下來新增的值就會依照比root小或等於root就往left擺和比root大就往right擺的原則建立一個Tree<br>
-相較於上次作業的heap的Binary Tree，差別是Binary Tree一定是有兩個child，才會往下個位置擺node<br>
-Binary Search Tree則是可以只有一個child，然後那個child可能還有一個或兩個child<br>
-那為什麼要建立Binary Search Tree?<br>
-如果我們有非常大量的資料，就可以依照比root小或等於root就往left擺和比root大就往right擺的原則來做不管是搜尋、刪除或修改的這些動作<br>
-這樣就不需要把全部的資料掃過一遍，而是有脈絡的去找到那個node，耗費的時間會比較短<br>
-![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/BST.png)
+Binary Search Tree<br>
+*   [HW3](https://github.com/yunghsin615/little_sun/tree/master/HW3)
+*   [BST程式碼](https://github.com/yunghsin615/little_sun/blob/master/HW3/binary_search_tree_06170236.py)
+*   [BST流程圖](https://github.com/yunghsin615/little_sun/blob/master/HW3/Binary%20Search%20Tree%20%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87BST%E5%8E%9F%E7%90%86.md)
+*   [BST新增、刪除、查詢、修改功能說明](https://github.com/yunghsin615/little_sun/blob/master/HW3/Binary%20Search%20Tree%E6%96%B0%E5%A2%9E%E3%80%81%E5%88%AA%E9%99%A4%E3%80%81%E6%9F%A5%E8%A9%A2%E3%80%81%E4%BF%AE%E6%94%B9%E5%8A%9F%E8%83%BD%E8%AA%AA%E6%98%8E.md)
 
 ### WEEK10
 
