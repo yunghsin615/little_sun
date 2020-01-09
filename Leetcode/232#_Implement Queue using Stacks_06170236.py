@@ -11,9 +11,7 @@ class MyQueue(object):
     def pop(self):
         
         if self.inputStack:
-            a = self.inputStack[0]
-            self.inputStack.pop(0)
-            return a
+            return self.inputStack.pop(0)
 
     def peek(self):
 
