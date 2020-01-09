@@ -1,6 +1,6 @@
 # little_sun☀
 學習notes
-
+[](https://github.com/yunghsin615/little_sun/tree/master/HW6)
 
 # WEEK1
 
