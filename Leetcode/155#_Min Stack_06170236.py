@@ -11,13 +11,7 @@ class MinStack(object):
         
     def push(self, x):
         
-        if len(self.arr) == 0:
-            self.arr.append(x)
-            self.temp_min = x
-        else:
-            self.arr.append(x)
-            if self.temp_min > self.arr[-1]:
-                self.temp_min = self.arr[-1]
+        self.arr.append(x)
 
     def pop(self):
   
