@@ -1,5 +1,8 @@
 # little_sun☀
-學習notes
+*   姓名:陳永欣
+*   學校:東吳大學
+*   系級:巨資三B
+*   這是是放資料結構與演算法課程的learning notes
 
 ### WEEK1
 *   放假<br>
