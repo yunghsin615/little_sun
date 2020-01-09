@@ -72,10 +72,9 @@ Insertion Sort
 每一次都是兩兩比較，執行效率比較低，但是如果剛好排序已經是從小到大的話，時間就會很快<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/insertion_sort.jpg)
 
-WEEK5
-=
-放假<br>
-Happy Double Tenth Day <br>
+### WEEK5
+  放假<br>
+ Happy Double Tenth Day <br>
 
 
 ### WEEK6
