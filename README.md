@@ -1,12 +1,12 @@
 # little_sun☀
 學習notes
 
-# WEEK1
-放假<br>
-Happy Moon Festival 🌕<r>
+### WEEK1
+*   放假<br>
++   Happy Moon Festival 🌕<r>
+-   嗨嗨
 
-
-# WEEK2
+### WEEK2
 
 linked-list
 -
@@ -18,7 +18,7 @@ lined-list可以由一個一個空間拼湊起來，這樣刪除的話，就不�
 除了上述兩個功能，還有**刪除**和**查詢**兩個功能可以操作<br>
 <br>
 
-# WEEK3
+### WEEK3
 
 Stack &  Queue
 -
@@ -43,8 +43,8 @@ IsEmpty - 確認Queue裡面是否有資料<br>
 getSize - 回傳Queue裡的資料個數
 
 
-WEEK4
-=
+### WEEK4
+
 set
 -
 在紙上寫出邏輯，再寫進Python<br>
@@ -100,8 +100,7 @@ Time Complexity = Nlog^N<br>
 
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HeapSort2.png)
 
-WEEK7
-=
+### WEEK7
 Merge Sort
 -
 Time Complexity = Nlog^N
@@ -123,8 +122,7 @@ Binary Tree
 每個父節點都是parent，最下面的子節點是Leaf，一個點可以同時是父節點也是子節點<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/BinaryTree.jpg)
 
-WEEK9
-=
+### WEEK9
 Binary Search Tree
 -
 由Linked-List為基準的演算法<br>
@@ -137,8 +135,8 @@ Binary Search Tree則是可以只有一個child，然後那個child可能還有�
 這樣就不需要把全部的資料掃過一遍，而是有脈絡的去找到那個node，耗費的時間會比較短<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/BST.png)
 
-WEEK10
-=
+### WEEK10
+
 Red Black Tree
 -
 以Binary Search Tree為基礎的演算法<br>
@@ -154,8 +152,7 @@ Red Black Tree
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/BRT.jpg)
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/BRT2.jpg)
 
-WEEK11
-=
+### WEEK11
 Hash Table
 -
 Array+Linked-List為基礎的演算法<br>
@@ -175,8 +172,7 @@ Hash Function(雜湊函式)<br>
 這樣remove、contains花費的時間就會比較少，因為找到抽屜，然後抽屜裡有東西，就代表找到值了<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/HashTable.jpg)
 
-WEEK12
-=
+### WEEK12
 Breadth-First Search
 -
 queue為基礎的演算法<br>
@@ -189,8 +185,7 @@ BFS是用之前老師上課教得queue的方式，先進先出的一個概念<br
 就這樣到迴圈結束<br>
 ![](https://i.imgur.com/vFw57lw.jpg) 1->2->3->4->5->6->8->7<br>
 
-WEEK13
-=
+### WEEK13
 Depth-First Search
 -
 stack為基礎的演算法<br>
@@ -201,8 +196,7 @@ DFS是用以前老師教得stack的方式，後進先出的一個概念<br>
 把每個點的臨邊點push進status1時，就要pop一個出來(status1[-1])，直到迴圈結束<br>
 ![](https://i.imgur.com/vFw57lw.jpg) 1->2->4->5->8->3->6->7<br>
 
-WEEK14
-=
+### WEEK14
 Minimum Spanning Tree
 -
 最小生成樹是把每個點都連在一起，但不能形成loop，也就是不能形成三角形這種圍成一圈的圖形<br>
@@ -222,8 +216,7 @@ diction的key是放起點到終點，value是放test的最後一項，也就是�
 {'1-4': 1, '4-6': 2, '0-5': 3, '0-1': 5, '2-3': 5, '3-4': 7} <br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/MST.jpg)
 
-WEEK15
-=
+### WEEK15
 Shortest Path
 -
 最短路徑的運算就是給一個起點(s)，計算他到每個點的最短路徑<br>
@@ -238,12 +231,14 @@ Shortest Path
 {'0': 0, '1': 4, '2': 12, '3': 19, '4': 21, '5': 11, '6': 9, '7': 8, '8': 14}<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/SP.jpg)
 
-WEEK 16
-=
+### WEEK 16
 Overview
 -
 
-WEEK17
-=
+### WEEK17
 Final
 -
+
+### WEEK18
+放假<br>
+回家投票~~~<br>
