@@ -1,16 +1,16 @@
 # little_sun☀
 學習notes
 
-### WEEK1
+## WEEK1
 *   放假<br>
 *   Happy Moon Festival 🌕
 
-### WEEK2
+## WEEK2
 Linked List<br>
 *   [Linked List](https://github.com/yunghsin615/little_sun/tree/master/Linked%20List)
 *   [Linked List程式碼](https://github.com/yunghsin615/little_sun/blob/master/Linked%20List/Linked%20List.py)
 
-### WEEK3
+## WEEK3
 Stack<br>
 *   [Stack](https://github.com/yunghsin615/little_sun/tree/master/Stack)
 *   [Stack程式碼](https://github.com/yunghsin615/little_sun/blob/master/Stack/155_Min%20Stack.py)
