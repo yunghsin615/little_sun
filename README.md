@@ -1,11 +1,10 @@
 # little_sun☀
 學習notes
-[HW6](https://github.com/yunghsin615/little_sun/tree/master/HW6)
 
 # WEEK1
+放假<br>
+Happy Moon Festival 🌕<r>
 
-Happy Moon Festival 🌕
--
 
 # WEEK2
 
@@ -75,8 +74,9 @@ Insertion Sort
 
 WEEK5
 =
-Happy Double Tenth Day 
--
+放假<br>
+Happy Double Tenth Day <br>
+
 
 WEEK6
 =
@@ -244,3 +244,13 @@ Shortest Path
 最後dist就是從起點開始到各點的最短路徑，把它變成dictionary的形式就完成了<br>
 {'0': 0, '1': 4, '2': 12, '3': 19, '4': 21, '5': 11, '6': 9, '7': 8, '8': 14}<br>
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/SP.jpg)
+
+WEEK 16
+=
+Overview
+-
+
+WEEK17
+=
+Final
+-
