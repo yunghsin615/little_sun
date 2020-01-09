@@ -3,8 +3,7 @@
 
 ### WEEK1
 *   放假<br>
-+   Happy Moon Festival 🌕<r>
--   嗨嗨
+*   Happy Moon Festival 🌕<br>
 
 ### WEEK2
 
@@ -73,13 +72,15 @@ Insertion Sort
 ![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/insertion_sort.jpg)
 
 ### WEEK5
-  放假<br>
- Happy Double Tenth Day <br>
+*   放假<br>
+*   Happy Double Tenth Day <br>
 
 
 ### WEEK6
-Quick Sort
--
+*   [HW1](https://github.com/yunghsin615/little_sun/tree/master/HW1)
+*   [Quick Sort程式碼](https://github.com/yunghsin615/little_sun/blob/master/HW1/quick_sort.ipynb)
+*   [Quick Sort流程圖]https://github.com/yunghsin615/little_sun/blob/master/HW1/quick_sort.jpg)
+
 
 Heap Sort
 -
