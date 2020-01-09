@@ -4,6 +4,10 @@
 *   系級:巨資三B
 *   這是是放資料結構與演算法課程的learning notes
 
+# Data Structure and Algorithm 
+在剛開學的時候，老師以為大家都知道GitHub，他說這是工程式的FaceBook，後來慢慢在很多進階課程都持續有聽到<br>
+整個學期幾乎都在寫一份又一分的作業，這堂課讓大家學了不少也老了不少，終於放寒假可以休息一下，但還是要持續精進自己的技能吧!<br>
+
 ### WEEK1
 *   放假<br>
 *   Happy Moon Festival 🌕
