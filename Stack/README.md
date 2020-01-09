@@ -1,5 +1,6 @@
 Stack
 -
+![image](https://github.com/yunghsin615/little_sun/blob/master/CodeSignal/Python/stack&queue.jpg)
 像堆盤子，最後一個放在top，使用在undo回到上一部的功能，後進先出<br>
 Push(data) - 把資料放進最上方<br>
 Pop - 刪除在最上方的資料<br>
