@@ -5,7 +5,30 @@
 *   這是是放資料結構與演算法課程的learning notes
 
 # Data Structure and Algorithm 
-在剛開學的時候，老師以為大家都知道GitHub，他說這是工程式的FaceBook，但大家幾乎都不知道，不過後來慢慢在很多進階課程都持續有聽到。整個學期幾乎都在寫一份又一份的作業，每次都覺得自己終於寫完了很厲害，然後就發現助教測資又沒過，這堂課讓大家學了不少也老了不少，終於放寒假可以休息一下，但還是要持續精進自己的技能吧!<br>
+在剛開學的時候，老師以為大家都知道GitHub，他說這是工程式的FaceBook，但大家幾乎都不知道，不過後來慢慢在很多進階課程都持續有聽到。整個學期幾乎都在寫一份又一份的作業，每次都覺得自己終於寫完了很厲害，然後就發現助教測資又沒過，一次次的失望，構成了不再期望，總之寫程式、debug和讀懂別人的程式的能力都有進步，也不會像一開始這麼煩躁了，這堂課讓大家學了不少也老了不少，終於放寒假可以休息一下，但還是要持續精進自己的技能吧!<br>
+
+## [Leetcode](https://github.com/yunghsin615/little_sun/tree/master/Leetcode)
+*   [707_Design Linked List](https://github.com/yunghsin615/little_sun/blob/master/Leetcode/707%23_Design%20Linked%20List_06170236.py)
+*   [155_Min Stack](https://github.com/yunghsin615/little_sun/blob/master/Leetcode/155%23_Min%20Stack_06170236.py)
+*   [232_Implement Queue using Stacks](https://github.com/yunghsin615/little_sun/blob/master/Leetcode/232%23_Implement%20Queue%20using%20Stacks_06170236.py)
+*   [9_Palindrome Number](https://github.com/yunghsin615/little_sun/blob/master/Leetcode/9%23_Palindrome%20Number_06170236.py)
+*   [27_Remove Element](https://github.com/yunghsin615/little_sun/blob/master/Leetcode/27%23_Remove%20Element%20_06170236.py)
+
+## [CodeSignal](https://github.com/yunghsin615/little_sun/tree/master/CodeSignal)
+### Intro
+*   add
+*   centuryFromYear
+*   checkPalindrome
+*   adjacentElementsProduct
+*   shapeArea
+*   makeArrayConsecutive2
+### Python
+*   Collections Truthness
+*   Efficient Comparison
+*   Special Conditional
+*   Language Differences
+*   Count Bits
+*   Modulus
 
 ### WEEK1
 *   放假<br>
